@@ -1,0 +1,71 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - E-Learnify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">E-Learnify</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Dashboard Section -->
+  <section class="dashboard">
+    <h2>Your Enrolled Courses</h2>
+
+    <div class="dashboard-courses">
+
+      <!-- Course 1 -->
+      <div class="dashboard-course-card">
+        <h3>HTML Basics</h3>
+        <p>Learn the building blocks of the web.</p>
+        <div class="progress-container small">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+        <p class="progress-text">75% Completed</p>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="dashboard-course-card">
+        <h3>CSS Styling</h3>
+        <p>Make your sites beautiful and responsive.</p>
+        <div class="progress-container small">
+          <div class="progress-bar" style="width: 40%; background-color: #ff8c00;"></div>
+        </div>
+        <p class="progress-text">40% Completed</p>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="dashboard-course-card">
+        <h3>JavaScript Essentials</h3>
+        <p>Add interactivity and logic to your pages.</p>
+        <div class="progress-container small">
+          <div class="progress-bar" style="width: 60%; background-color: #28a745;"></div>
+        </div>
+        <p class="progress-text">60% Completed</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+     <p>&copy; 2025 E-Learnify. <hr>developed by sagar srivastava</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
