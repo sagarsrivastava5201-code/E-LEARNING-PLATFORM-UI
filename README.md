@@ -60,3 +60,4 @@ Showcases Practical Skills: It demonstrates your ability to create responsive la
 
 # OUTPUT
 <img width="1865" height="880" alt="Image" src="https://github.com/user-attachments/assets/7fc2bc72-4d4d-4dd1-a0ad-a385e26623fc" />
+<img width="1743" height="891" alt="Image" src="https://github.com/user-attachments/assets/8f72e229-b496-4871-997f-812d63d536ab" />
